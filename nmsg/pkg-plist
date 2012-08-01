@@ -1,0 +1,61 @@
+bin/nmsgtool
+include/nmsg.h
+include/nmsg/alias.h
+include/nmsg/asprintf.h
+include/nmsg/chalias.h
+include/nmsg/constants.h
+include/nmsg/crc32c.h
+include/nmsg/input.h
+include/nmsg/io.h
+include/nmsg/ipdg.h
+include/nmsg/isc/defs.h
+include/nmsg/isc/dns.pb-c.h
+include/nmsg/isc/dnsqr.pb-c.h
+include/nmsg/isc/email.pb-c.h
+include/nmsg/isc/encode.pb-c.h
+include/nmsg/isc/http.pb-c.h
+include/nmsg/isc/ipconn.pb-c.h
+include/nmsg/isc/linkpair.pb-c.h
+include/nmsg/isc/logline.pb-c.h
+include/nmsg/isc/ncap.pb-c.h
+include/nmsg/isc/pkt.pb-c.h
+include/nmsg/isc/xml.pb-c.h
+include/nmsg/list.h
+include/nmsg/message.h
+include/nmsg/msgmod.h
+include/nmsg/msgmod_plugin.h
+include/nmsg/nmsg.pb-c.h
+include/nmsg/output.h
+include/nmsg/pcap_input.h
+include/nmsg/rate.h
+include/nmsg/res.h
+include/nmsg/sock.h
+include/nmsg/strbuf.h
+include/nmsg/timespec.h
+include/nmsg/tree.h
+include/nmsg/vendors.h
+include/nmsg/zbuf.h
+lib/libnmsg.a
+lib/libnmsg.la
+lib/libnmsg.so
+lib/libnmsg.so.6
+lib/nmsg/nmsg_msg8_isc.a
+lib/nmsg/nmsg_msg8_isc.la
+lib/nmsg/nmsg_msg8_isc.so
+man/man1/nmsgtool.1
+share/nmsg/isc/dns.proto
+share/nmsg/isc/dnsqr.proto
+share/nmsg/isc/email.proto
+share/nmsg/isc/encode.proto
+share/nmsg/isc/http.proto
+share/nmsg/isc/ipconn.proto
+share/nmsg/isc/linkpair.proto
+share/nmsg/isc/logline.proto
+share/nmsg/isc/ncap.proto
+share/nmsg/isc/pkt.proto
+share/nmsg/isc/xml.proto
+@dirrm include/nmsg/isc
+@dirrm include/nmsg
+@dirrm lib/nmsg
+@dirrm share/nmsg/isc
+@dirrm share/nmsg
