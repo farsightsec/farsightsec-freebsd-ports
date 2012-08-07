@@ -1,0 +1,7 @@
+rsf-freebsd-ports
+-----------------
+
+This repository contains standalone ports for the FreeBSD ports system for
+various rsfcode projects and dependencies.
+
+Run "make install" in the port subdirectories to install a port.
