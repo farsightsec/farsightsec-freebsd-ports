@@ -9,4 +9,4 @@ libnmsg provides a modular interface for registering handlers for
 specific message types. libnmsg makes it easy to build new message
 types using the protobuf-c compiler.
 
-WWW: ftp://ftp.isc.org/isc/nmsg/
+WWW: http://rsfcode.isc.org/git/nmsg/
