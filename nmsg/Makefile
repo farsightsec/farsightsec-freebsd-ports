@@ -10,7 +10,8 @@ LIB_DEPENDS=	pcap.1:${PORTSDIR}/net/libpcap
 
 BUILD_DEPENDS=	\
 	${LOCALBASE}/libdata/pkgconfig/libprotobuf-c.pc:${PORTSDIR}/devel/protobuf-c \
-	${LOCALBASE}/libdata/pkgconfig/libwdns.pc:${PWD}/../wdns
+	${LOCALBASE}/libdata/pkgconfig/libwdns.pc:${PWD}/../wdns \
+	${LOCALBASE}/libdata/pkgconfig/libxs.pc:${PWD}/../libxs
 
 USE_GMAKE=	yes
 USE_PKGCONFIG=	yes
