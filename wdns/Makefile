@@ -1,5 +1,5 @@
 PORTNAME=		wdns
-PORTVERSION=	0.3
+PORTVERSION=	0.4
 CATEGORIES=		net
 MASTER_SITES=	http://rsfcode.isc.org/dist/wdns/
 
