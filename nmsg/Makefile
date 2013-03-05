@@ -1,5 +1,5 @@
 PORTNAME=		nmsg
-PORTVERSION=	0.7.1
+PORTVERSION=	0.7.2
 CATEGORIES=		net
 MASTER_SITES=	http://rsfcode.isc.org/dist/nmsg/
 
@@ -17,9 +17,6 @@ USE_GMAKE=	yes
 USE_PKGCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS+=	CFLAGS="-I/usr/local/include" LDFLAGS="-L/usr/local/lib"
-
-post-patch:
-	${REINPLACE_CMD} -e 's|pkgconfigdir = $$(libdir)/pkgconfig|pkgconfigdir = $${exec_prefix}/libdata/pkgconfig|g' ${WRKSRC}/Makefile.in
+CONFIGURE_ARGS+=	--with-pkgconfigdir='$${exec_prefix}/libdata/pkgconfig' CFLAGS="-I/usr/local/include" LDFLAGS="-L/usr/local/lib"
 
 .include <bsd.port.mk>
