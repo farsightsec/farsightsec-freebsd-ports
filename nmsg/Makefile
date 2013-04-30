@@ -1,5 +1,5 @@
 PORTNAME=		nmsg
-PORTVERSION=	0.7.2
+PORTVERSION=	0.7.3
 CATEGORIES=		net
 MASTER_SITES=	http://rsfcode.isc.org/dist/nmsg/
 
