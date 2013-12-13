@@ -2,19 +2,11 @@ PORTNAME=	wdns
 PORTVERSION=	0.4
 CATEGORIES=	net
 MASTER_SITES=	https://dl.farsightsecurity.com/dist/wdns/
-
 MAINTAINER=	software@farsightsecurity.com
 COMMENT=	low-level DNS library
 
-LIB_DEPENDS=	pcap.1:${PORTSDIR}/net/libpcap
-
-USE_GMAKE=		yes
 USE_PKGCONFIG=	yes
-
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS+=	CFLAGS="-I/usr/local/include" LDFLAGS="-L/usr/local/lib"
-
-post-patch:
-	${REINPLACE_CMD} -e 's|pkgconfigdir = $$(libdir)/pkgconfig|pkgconfigdir = $${exec_prefix}/libdata/pkgconfig|g' ${WRKSRC}/Makefile.in
+USES=		pathfix gmake
 
 .include <bsd.port.mk>
