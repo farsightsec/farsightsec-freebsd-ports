@@ -1,10 +1,10 @@
-PORTNAME=		wdns
+PORTNAME=	wdns
 PORTVERSION=	0.4
-CATEGORIES=		net
-MASTER_SITES=	http://rsfcode.isc.org/dist/wdns/
+CATEGORIES=	net
+MASTER_SITES=	https://dl.farsightsecurity.com/dist/wdns/
 
-MAINTAINER=		edmonds@isc.org
-COMMENT=		low-level DNS library
+MAINTAINER=	software@farsightsecurity.com
+COMMENT=	low-level DNS library
 
 LIB_DEPENDS=	pcap.1:${PORTSDIR}/net/libpcap
 

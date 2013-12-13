@@ -1,10 +1,10 @@
-PORTNAME=		nmsg
+PORTNAME=	nmsg
 PORTVERSION=	0.7.3
-CATEGORIES=		net
-MASTER_SITES=	http://rsfcode.isc.org/dist/nmsg/
+CATEGORIES=	net
+MASTER_SITES=	https://dl.farsightsecurity.com/dist/nmsg/
 
-MAINTAINER=		edmonds@isc.org
-COMMENT=		network message encapsulation system
+MAINTAINER=	software@farsightsecurity.com
+COMMENT=	network message encapsulation system
 
 LIB_DEPENDS=	pcap.1:${PORTSDIR}/net/libpcap
 

@@ -1,10 +1,10 @@
-PORTNAME=		wrapsrv
+PORTNAME=	wrapsrv
 PORTVERSION=	0.2
-CATEGORIES=		dns
-MASTER_SITES=	http://rsfcode.isc.org/dist/wrapsrv/
+CATEGORIES=	dns
+MASTER_SITES=	https://dl.farsightsecurity.com/dist/wrapsrv/
 
-MAINTAINER=		edmonds@isc.org
-COMMENT=		DNS SRV record command line wrapper
+MAINTAINER=	software@farsightsecurity.com
+COMMENT=	DNS SRV record command line wrapper
 
 post-patch:
 	@${REINPLACE_CMD} -e 's/^LDFLAGS = -lresolv$$/LDFLAGS = /g' ${WRKSRC}/Makefile
