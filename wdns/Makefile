@@ -1,5 +1,5 @@
 PORTNAME=	wdns
-PORTVERSION=	0.4
+PORTVERSION=	0.5
 CATEGORIES=	net
 MASTER_SITES=	https://dl.farsightsecurity.com/dist/wdns/
 MAINTAINER=	software@farsightsecurity.com
