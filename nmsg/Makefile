@@ -12,9 +12,10 @@ BUILD_DEPENDS=	\
 USE_PKGCONFIG=	yes
 GNU_CONFIGURE=	yes
 USES=		pathfix gmake
+CFLAGS+=	"-I/usr/local/include"
+LDFLAGS+=	"-L/usr/local/lib"
 CONFIGURE_ARGS+=	--enable-static
 CONFIGURE_ARGS+=	--without-libxs
 CONFIGURE_ARGS+=	--with-pkgconfigdir='$${exec_prefix}/libdata/pkgconfig'
-CONFIGURE_ARGS+=	CFLAGS="-I/usr/local/include" LDFLAGS="-L/usr/local/lib"
 
 .include <bsd.port.mk>
