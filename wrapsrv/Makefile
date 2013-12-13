@@ -1,5 +1,5 @@
 PORTNAME=	wrapsrv
-PORTVERSION=	0.2
+PORTVERSION=	0.3
 CATEGORIES=	dns
 MASTER_SITES=	https://dl.farsightsecurity.com/dist/wrapsrv/
 

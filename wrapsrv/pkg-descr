@@ -5,4 +5,4 @@ The specified command line will be invoked one or more times with %h and %p
 sequences in the command line substituted for the hostname and port elements
 of the selected SRV record.
 
-WWW: ftp://ftp.isc.org/isc/toolmakers/wrapsrv/
+WWW: https://github.com/farsightsec/wrapsrv
