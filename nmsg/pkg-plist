@@ -33,11 +33,12 @@ include/nmsg/strbuf.h
 include/nmsg/timespec.h
 include/nmsg/vendors.h
 include/nmsg/zbuf.h
+lib/libnmsg.a
 lib/libnmsg.so
 lib/libnmsg.so.6
 lib/nmsg/nmsg_msg8_isc.so
 libdata/pkgconfig/libnmsg.pc
-man/man1/nmsgtool.1
+man/man1/nmsgtool.1.gz
 share/nmsg/isc/dns.proto
 share/nmsg/isc/dnsqr.proto
 share/nmsg/isc/email.proto
