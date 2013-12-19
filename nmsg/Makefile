@@ -1,7 +1,9 @@
 PORTNAME=	nmsg
-PORTVERSION=	0.7.3
+REALVERSION=	0.8.0-rc1
+PORTVERSION=	0.8.0.rc1
+DISTNAME=	${PORTNAME}-${REALVERSION}
 CATEGORIES=	net
-MASTER_SITES=	https://dl.farsightsecurity.com/dist/nmsg/
+MASTER_SITES=	https://dl.farsightsecurity.com/dist/nmsg/test/${REALVERSION}/
 MAINTAINER=	software@farsightsecurity.com
 COMMENT=	network message encapsulation system
 
@@ -14,7 +16,6 @@ GNU_CONFIGURE=	yes
 USES=		pathfix gmake
 CFLAGS+=	"-I/usr/local/include"
 LDFLAGS+=	"-L/usr/local/lib"
-CONFIGURE_ARGS+=	--enable-static
 CONFIGURE_ARGS+=	--without-libxs
 CONFIGURE_ARGS+=	--with-pkgconfigdir='$${exec_prefix}/libdata/pkgconfig'
 
