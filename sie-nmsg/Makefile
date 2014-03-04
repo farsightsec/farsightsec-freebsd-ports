@@ -1,5 +1,5 @@
 PORTNAME=	sie-nmsg
-PORTVERSION=	0.14
+PORTVERSION=	0.16
 CATEGORIES=	net
 MASTER_SITES=	https://dl.farsightsecurity.com/dist/sie-nmsg/
 MAINTAINER=	software@farsightsecurity.com
