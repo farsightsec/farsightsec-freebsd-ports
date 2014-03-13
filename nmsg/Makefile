@@ -1,9 +1,8 @@
 PORTNAME=	nmsg
-REALVERSION=	0.8.0-rc2
-PORTVERSION=	0.8.0.rc2
-DISTNAME=	${PORTNAME}-${REALVERSION}
+PORTVERSION=	0.8.0
+DISTNAME=	${PORTNAME}-${PORTVERSION}
 CATEGORIES=	net
-MASTER_SITES=	https://dl.farsightsecurity.com/dist/nmsg/test/${REALVERSION}/
+MASTER_SITES=	https://dl.farsightsecurity.com/dist/nmsg/
 MAINTAINER=	software@farsightsecurity.com
 COMMENT=	network message encapsulation system
 
